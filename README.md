@@ -57,7 +57,8 @@ The project follows the MVC (Model-View-Controller) pattern:
 
 ### Installation
 1. Clone the repository
-2. Install dependencies:
+2. Insert your database connection infos in models/database.py
+3. Install dependencies:
 ```bash
 pip install sqlalchemy
 ```
