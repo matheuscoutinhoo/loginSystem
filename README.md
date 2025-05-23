@@ -39,8 +39,7 @@ login/
 - SQLAlchemy (ORM)
 - PostgreSQL Database
 - getpass (for secure password input)
-- sha256 (for password hashing)
-- cryptography (for data encryption)
+- Hashlib & sha256 (for password hashing)
 
 ## Architecture
 The project follows the MVC (Model-View-Controller) pattern:
@@ -60,7 +59,7 @@ The project follows the MVC (Model-View-Controller) pattern:
 1. Clone the repository
 2. Install dependencies:
 ```bash
-pip install sqlalchemy bcrypt cryptography
+pip install sqlalchemy
 ```
 
 ### Running the Application
